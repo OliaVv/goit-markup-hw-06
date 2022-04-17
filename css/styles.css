@@ -603,17 +603,19 @@ a {
   display: block;
   /* width: 448px; */
 }
-.input-wrapper {
+/* .input-wrapper {
   position: relative;
-}
+} */
 .icon-form {
   position: absolute;
+  top: 12px;
+  left: 12px;
 }
 .modal-input {
   width: 100%;
   display: block;
   margin-bottom: 10px;
-  padding: 11px 12px;
+  padding: 11px 32px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   font-size: 14px;
