@@ -10,7 +10,7 @@
 }
 body {
   color: var(--main-color, #212121);
-  background-color: var(--bcg-color, #e5e5e5);
+  /* background-color: #e5e5e5; */
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.14;
@@ -127,7 +127,7 @@ a {
   background-size: cover;
 }
 .footer {
-  background-color: var(--bcg-color-hero, ##2f303a);
+  background-color: var(--bcg-color-hero, #2f303a);
   /* color: var(--white, #ffffff) */
 }
 .hero .conteiner {
@@ -215,8 +215,8 @@ a {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.feature-icon {
-}
+/* .feature-icon {
+} */
 .jobs.section {
   padding-top: 0;
 }
