@@ -407,6 +407,26 @@ a {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+  font-size: 16px;
+  color: #fff;
+}
+
+.sub-email:hover,
+.sub-email:focus {
+  outline: transparent;
+}
+.sub-mail::placeholder {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+.sub-icon {
+  fill: var(--accent);
+}
+.sub-btn:hover .sub-icon,
+.sub-btn:focus .sub-icon {
+  fill: #fff;
 }
 /* Портфоліо фільтри */
 
