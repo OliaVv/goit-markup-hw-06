@@ -425,13 +425,13 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 .sub-icon {
-  fill: var(--accent);
-  transition: fill var(--animation);
+  margin-left: 10px;
+  fill: var(--white);
 }
-.sub-btn:hover .sub-icon,
+/* .sub-btn:hover .sub-icon,
 .sub-btn:focus .sub-icon {
   fill: #fff;
-}
+} */
 /* Портфоліо фільтри */
 
 .filter {
@@ -625,6 +625,7 @@ a {
   transition: border-color var(--animation);
 }
 .modal-input.textarea {
+  height: 120px;
   margin-bottom: 20px;
   padding: 12px 16px;
   resize: none;
@@ -640,7 +641,7 @@ a {
   fill: var(--accent);
 }
 .textarea::placeholder {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
